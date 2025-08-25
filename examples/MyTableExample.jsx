@@ -54,7 +54,7 @@ export default function MyTableExample() {
       <DataTable
         columns={columns}
         data={data}
-        enableGlobalFilter={false}
+        enableGlobalFilter={true}
         enableSorting={true}
         enablePagination={true}
       />
