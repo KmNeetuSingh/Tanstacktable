@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "dev": "vite",
+    "prebuild": "chmod +x node_modules/.bin/vite",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -16,6 +17,7 @@
     "@tanstack/react-table": "^8.21.3",
     "date-fns": "^2.30.0",
     "framer-motion": "^10.16.16",
+    "install": "^0.13.0",
     "lucide-react": "^0.541.0",
     "react": ">=16.8.0",
     "react-datepicker": "^4.25.0",
@@ -31,7 +33,7 @@
     "react-dom": ">=16.8.0"
   },
   "engines": {
-    "node": "18.x"
+    "node": "22.x"
   },
   "browserslist": [
     "last 2 Chrome versions",
